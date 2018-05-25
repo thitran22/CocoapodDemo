@@ -7,22 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		185D7EE920B7C8FF00115B26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D7EE820B7C8FF00115B26 /* AppDelegate.swift */; };
-		185D7EEB20B7C8FF00115B26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D7EEA20B7C8FF00115B26 /* ViewController.swift */; };
-		185D7EEE20B7C8FF00115B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D7EEC20B7C8FF00115B26 /* Main.storyboard */; };
-		185D7EF020B7C90200115B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185D7EEF20B7C90200115B26 /* Assets.xcassets */; };
-		185D7EF320B7C90200115B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185D7EF120B7C90200115B26 /* LaunchScreen.storyboard */; };
 		185D7EFB20B7C94400115B26 /* ABCEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185D7EFA20B7C94400115B26 /* ABCEngine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		185D7EE520B7C8FF00115B26 /* CocoapodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		185D7EE820B7C8FF00115B26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		185D7EEA20B7C8FF00115B26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		185D7EED20B7C8FF00115B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		185D7EEF20B7C90200115B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		185D7EF220B7C90200115B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		185D7EF420B7C90200115B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		185D7EFA20B7C94400115B26 /* ABCEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ABCEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,12 +45,6 @@
 		185D7EE720B7C8FF00115B26 /* CocoapodDemo */ = {
 			isa = PBXGroup;
 			children = (
-				185D7EE820B7C8FF00115B26 /* AppDelegate.swift */,
-				185D7EEA20B7C8FF00115B26 /* ViewController.swift */,
-				185D7EEC20B7C8FF00115B26 /* Main.storyboard */,
-				185D7EEF20B7C90200115B26 /* Assets.xcassets */,
-				185D7EF120B7C90200115B26 /* LaunchScreen.storyboard */,
-				185D7EF420B7C90200115B26 /* Info.plist */,
 				185D7EFA20B7C94400115B26 /* ABCEngine.swift */,
 			);
 			path = CocoapodDemo;
@@ -125,9 +108,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185D7EF320B7C90200115B26 /* LaunchScreen.storyboard in Resources */,
-				185D7EF020B7C90200115B26 /* Assets.xcassets in Resources */,
-				185D7EEE20B7C8FF00115B26 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +118,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				185D7EEB20B7C8FF00115B26 /* ViewController.swift in Sources */,
-				185D7EE920B7C8FF00115B26 /* AppDelegate.swift in Sources */,
 				185D7EFB20B7C94400115B26 /* ABCEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		185D7EEC20B7C8FF00115B26 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185D7EED20B7C8FF00115B26 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		185D7EF120B7C90200115B26 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				185D7EF220B7C90200115B26 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		185D7EF520B7C90200115B26 /* Debug */ = {
